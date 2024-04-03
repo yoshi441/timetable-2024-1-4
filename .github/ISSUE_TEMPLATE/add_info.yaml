@@ -32,6 +32,7 @@ body:
         - 電子回路1
         - 電気電子材料1
         - エレクトロニクス実験実習
+        - HR
   - type: input
     attributes:
       label: 日付
