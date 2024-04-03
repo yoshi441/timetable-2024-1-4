@@ -1,0 +1,4 @@
+.grid-init-pc{
+  display: grid;
+  grid-template-columns: 1fr 45px 60px 90px 120px 60px 90px;
+}

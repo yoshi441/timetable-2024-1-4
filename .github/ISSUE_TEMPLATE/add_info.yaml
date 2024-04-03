@@ -1,0 +1,44 @@
+name: 連絡追加用フォーム
+description: 各教科の連絡を追加するためのフォームです。
+title: "[Add_i]:"
+labels: ["add", "info"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        以下のフォームに必要事項を入力してください。
+  - type: dropdown
+    id: subject
+    attributes:
+      label: 教科
+      multiple: false
+      options:
+        - 微分積分1
+        - 微分積分2
+        - ベクトルと行列
+        - 国語2
+        - 英語3
+        - 英語4
+        - 英語表現2
+        - 化学2
+        - 基礎物理1
+        - 生物
+        - 社会2
+        - 保健・体育2
+        - 情報2
+        - エレクトロニクス概論
+        - 電気設備
+        - 電気回路1
+        - 電子回路1
+        - 電気電子材料1
+        - エレクトロニクス実験実習
+  - type: input
+    attributes:
+      label: 日付
+      description: |
+        yyyy/mm/dd形式で入力してください。  
+        例：2024/04/05
+  - type: textarea
+    attributes:
+      label: 内容
+
