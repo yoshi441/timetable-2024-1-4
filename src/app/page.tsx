@@ -1,4 +1,5 @@
 import Image from "next/image";
+import timetable from "@/components/timetable.ts"
 
 export default function Home() {
   return (
