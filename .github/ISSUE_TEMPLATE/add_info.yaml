@@ -37,8 +37,10 @@ body:
     attributes:
       label: 日付
       description: |
-        yyyy/mm/dd形式で入力してください。  
-        例：2024/04/05
+        yyyy-mm-dd形式で入力してください。  
+        例：date:2024-04-05
+      placeholder: |
+        date:
   - type: textarea
     attributes:
       label: 内容
