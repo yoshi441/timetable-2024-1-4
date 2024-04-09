@@ -23,17 +23,17 @@ const TimeTable = () => {
                 <h1 className="border-2 border-t-0 p-2 border-slate-800">7</h1>
                 <h1 className="border-2 border-t-0 p-2 border-slate-800">8</h1>
                 <h1 className="col-span-2 p-2 border-2 border-l-0 border-slate-800">月曜日</h1>
-                {timetable["early_period"][cource][1].map((value) => <p className="col-span-2 border-t-0 border-l-0 row-span-2 p-2 border-2 border-slate-800">{value}</p>)}
+                {timetable["early_period"][cource][1].map((value, index) => <p className="col-span-2 border-t-0 border-l-0 row-span-2 p-2 border-2 border-slate-800" key={index}>{value}</p>)}
                 <p className="col-span-2 row-span-2 p-2 border-2 border-t-0 border-l-0 border-slate-800"></p>
                 <h1 className="col-span-2 p-2 border-2 border-l-0 border-slate-800">火曜日</h1>
-                {timetable["early_period"][cource][2].map((value) => <p className="col-span-2 border-t-0 border-l-0 row-span-2 p-2 border-2 border-slate-800">{value}</p>)}
+                {timetable["early_period"][cource][2].map((value, index) => <p className="col-span-2 border-t-0 border-l-0 row-span-2 p-2 border-2 border-slate-800" key={index}>{value}</p>)}
                 <h1 className="col-span-2 p-2 border-2 border-l-0 border-slate-800">水曜日</h1>
-                {timetable["early_period"][cource][3].map((value) => <p className="col-span-2 border-t-0 border-l-0 row-span-2 p-2 border-2 border-slate-800">{value}</p>)}
+                {timetable["early_period"][cource][3].map((value, index) => <p className="col-span-2 border-t-0 border-l-0 row-span-2 p-2 border-2 border-slate-800" key={index}>{value}</p>)}
                 <h1 className="col-span-2 p-2 border-2 border-l-0 border-slate-800">木曜日</h1>
-                {timetable["early_period"][cource][4].map((value) => <p className="col-span-2 border-t-0 border-l-0 row-span-2 p-2 border-2 border-slate-800">{value}</p>)}
+                {timetable["early_period"][cource][4].map((value, index) => <p className="col-span-2 border-t-0 border-l-0 row-span-2 p-2 border-2 border-slate-800" key={index}>{value}</p>)}
                 <p className="col-span-2 row-span-2 p-2 border-2 border-t-0 border-l-0 border-slate-800"></p>
                 <h1 className="col-span-2 p-2 border-2 border-l-0 border-slate-800">金曜日</h1>
-                {timetable["early_period"][cource][5].map((value) => <p className="col-span-2 border-t-0 border-l-0 row-span-2 p-2 border-2 border-slate-800">{value}</p>)}
+                {timetable["early_period"][cource][5].map((value, index) => <p className="col-span-2 border-t-0 border-l-0 row-span-2 p-2 border-2 border-slate-800" key={index}>{value}</p>)}
             </div>
         </>
     )
