@@ -1,6 +1,5 @@
 import React from "react";
 import Midashi from "./section_midashi";
-import Title from "./title";
 import Body from "./body";
 
 const InfoTop = () => {

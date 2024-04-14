@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 2024年度2年Eコースポータルサイト
 
-## Getting Started
+本Webページは、2024年度の2年Eコース内で、時間割その他情報の共有を行うことを目的として作成した。  
 
-First, run the development server:
+## 技術選定
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+以下のものを今回は採用した。
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Next.js
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+フロントエンドフレームワークには、Next.jsを採用した。  
+これは、現在国内で最も使われているフロントエンドフレームワークであり、特段設定せずとも動かせるため採用した。  
+このため、本WebページはReactを用いて開発している。
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Tailwindcss
 
-## Learn More
+CSSフレームワークとしてTailwindcssを採用した。  
+これは、CSSのプロパティに対応したclassを設定することでスタイリングが容易にできるというものである。
 
-To learn more about Next.js, take a look at the following resources:
+### MUI/Material
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+UIフレームワークにはMUI/Materialを採用した。  
+これは、ReactベースのMaterial UIコンポーネントである。
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## ルーティング
 
-## Deploy on Vercel
+今回は、Next.jsのApp Routerを利用した。  
+そのため、ページを構成するファイルは`@/App`ディレクトリにある。  
+App Routerを使用する場合、ページ名に対応したディレクトリを作成し、そこに`page.tsx`というファイルを用意しなければならない。  
+なお、今回はTypeScriptを採用したため、`tsx`ファイルを採用した。
+また、App Routerを利用する場合、コンポーネントは既定でサーバーコンポーネントになるので、クライアントコンポーネントにする場合は`'use client'`とファイルの先頭に書く必要がある。
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## JSX
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Reactには、`JSX`という記法があり、これを利用することで、JavaScript/TypeScript上でHTMLを記述することができる。  
+JSX記法はJavaScriptとTypeScriptに対応しており、拡張子はそれぞれ`.jsx`と`.tsx`である。
+
+## コンポーネント
+
+今回は以下のようにコンポーネントを分割した。
+
+`src/components`配下に配置してある。

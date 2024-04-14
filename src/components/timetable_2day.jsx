@@ -4,15 +4,23 @@ import '@/styles/title.css'
 
 const TimeTable2 = (props) => {
   let today = new Date().getDay();
-  let weekday = today + props.day != 1 ?  today + props.day : today;
-  switch (weekday) {
-    case 7:
-      weekday = 2;
+  let weekday = props.day != 1 ?  today + props.day : today;
+  switch (today) {
+    case 5:
+      if(props.day == 1){
+        weekday = 1;
+      }
       break;
+    case 0:
     case 6:
-      weekday = 1;
+      if (props.day == 1){
+        weekday = 2;
+      } else {
+        weekday = 1;
+      }
       break;
   };
+  console.log(weekday)
   let daytimetable = [];
   timetable["early_period"]["e"][weekday].map((item) => {
     return(

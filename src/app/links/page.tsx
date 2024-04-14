@@ -39,7 +39,7 @@ const Links = () => {
                 <ul className="pl-5">
                     <li><a href="https://www.ct.omu.ac.jp">大阪公立大学工業高等専門学校HP (https://www.ct.omu.ac.jp)</a></li>
                     <li><a href="https://www.ct.omu.ac.jp/electronics/">エレクトロニクスコースHP (https://www.ct.omu.ac.jp/electronics)</a></li>
-                    <li><a href="https://www.ct.omu.ac.jp/liberal-arts/">一般科目系HP (https://www.ct.omu.ac.jp/liberal-arts/)</a></li>
+                    <li><a href="https://www.ct.omu.ac.jp/liberal-arts/">一般科目系HP</a></li>
                     <li><a href="https://www.ct.omu.ac.jp/ene-mecha/">エネルギー機械コースHP</a></li>
                     <li><a href="https://www.ct.omu.ac.jp/product-dsgn/">プロダクトデザインコースHP</a></li>
                     <li><a href="https://www.ct.omu.ac.jp/informatics/">知能情報コースHP</a></li>
