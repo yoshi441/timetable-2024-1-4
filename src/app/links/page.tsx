@@ -30,6 +30,8 @@ const Links = () => {
                 <Midashi>その他授業関係</Midashi>
                 <ul className="pl-5">
                     <li><a href="https://lms.omu.ac.jp">Moodle (https://lms.omu.ac.jp)</a></li>
+                    <li><a href="https://www.ct.omu.ac.jp/pect-lab/lecture/">エレクトロニクス概論授業資料</a></li>
+                    <li><a href="https://tin-straw-281.notion.site/3-4_-206d780bd02b449aa57f5c8986529d64?pvs=4&classId=62d8cd25-d9bb-41ee-9415-08e1f8eacbbe">英語3・4情報まとめサイト</a></li>
                 </ul>
                 <Midashi>その他教務関係</Midashi>
                 <ul className="pl-5">
@@ -38,7 +40,7 @@ const Links = () => {
                 <Midashi>HP</Midashi>
                 <ul className="pl-5">
                     <li><a href="https://www.ct.omu.ac.jp">大阪公立大学工業高等専門学校HP (https://www.ct.omu.ac.jp)</a></li>
-                    <li><a href="https://www.ct.omu.ac.jp/electronics/">エレクトロニクスコースHP (https://www.ct.omu.ac.jp/electronics)</a></li>
+                    <li><a href="https://www.ct.omu.ac.jp/electronics/">エレクトロニクスコースHP</a></li>
                     <li><a href="https://www.ct.omu.ac.jp/liberal-arts/">一般科目系HP</a></li>
                     <li><a href="https://www.ct.omu.ac.jp/ene-mecha/">エネルギー機械コースHP</a></li>
                     <li><a href="https://www.ct.omu.ac.jp/product-dsgn/">プロダクトデザインコースHP</a></li>

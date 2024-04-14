@@ -4,7 +4,7 @@ import timetable from "./timetable_data";
 
 
 const TimeTable = () => {
-    const[cource,setCource] = useState("e");
+    const[cource,setCource] = useState("e"); {/**ここのeを書き換えることでデフォルト表示コースを変更可能 */}
     let timetable_data = []
     return (
         <>

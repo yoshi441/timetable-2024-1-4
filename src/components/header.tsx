@@ -5,7 +5,7 @@ import Link from 'next/link'
 const Header = () => {
   return(
     <>
-      <div className={"bg-green-300 h-20 p-5 text-xl grid grid-init-pc"}>
+      <div className={"bg-green-300 h-20 p-5 text-xl grid grid-init-pc"}> {/** ここの "bg-green-300" のgreenを置き換えると他コースに対応可 */}
         <h1 className={"text-3xl text-slate-700"}>
           <Link href={"/"}>2024年度2年Eコース掲示板</Link>
         </h1>
