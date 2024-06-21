@@ -5,7 +5,6 @@ import timetable from "./timetable_data";
 
 const TimeTable = () => {
     const[cource,setCource] = useState("e"); {/**ここのeを書き換えることでデフォルト表示コースを変更可能 */}
-    let timetable_data = []
     return (
         <>
             <button className={cource == "m" ? "border-2 border-red-700 m-2 p-2 bg-red-200" : "border-2 border-red-700 m-2 p-2 hover:bg-red-200"} onClick={() => {setCource("m")}} >エネルギー機械コース</button>
