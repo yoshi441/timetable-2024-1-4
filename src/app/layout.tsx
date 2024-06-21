@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { M_PLUS_Rounded_1c } from "next/font/google";
+import { M_PLUS_Rounded_1c, Noto_Sans_JP } from "next/font/google";
 import "./globals.css";
 
-const inter = M_PLUS_Rounded_1c({
+const inter = Noto_Sans_JP({
   weight: '400', 
   subsets: ["latin"]
  });
