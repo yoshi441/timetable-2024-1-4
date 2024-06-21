@@ -4,7 +4,7 @@ import '@/styles/title.css'
 
 const TimeTable2 = (props) => {
   let today = new Date().getDay();
-  let weekday = props.day != 1 ?  today + props.day : today;
+  let weekday = props.day == 0 ? today: today + props.day;
   switch (today) {
     case 5:
       if(props.day == 1){
